@@ -1,5 +1,5 @@
 import { useState, useEffect, ChangeEvent } from "react";
-import { optionType } from "../types";
+import { optionType, forecastType } from "../types";
 
 function useForecast() {
   const [term, setTerm] = useState<string>("");
